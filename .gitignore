@@ -1,0 +1,30 @@
+# Abhängigkeiten
+node_modules/
+
+# Lokale Daten (SQLite-Datei mit allen Trainingsdaten)
+data/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Build-Ausgaben
+client/dist/
+coverage/
+*.tsbuildinfo
+
+# Umgebung & Logs
+.env
+.env.*
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Lokale Claude-Code-Einstellungen
+.claude/settings.local.json
